@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="formatos.css">
+
+    <style>
+        body {
+            background-color: #f1f1f1b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark usa_1">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="receitas.html">Receitas</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main class="principal_site">
+        <form method="POST" action="https://formspree.io/f/xvojqpoa">
+
+            <div class="container-fluid">
+
+                <div class="col-7 alinhar_caixas">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required />
+                </div>
+
+                <div class="col-7 alinhar_caixas">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required />
+                </div>
+
+                <div class="col-7 alinhar_caixas">
+                    <label for="cep">CEP:</label>
+                    <input type="text" class="form-control" id="cep" name="cep" required />
+                </div>
+
+                <div class="col-7 alinhar_caixas">
+                    <label for="rua">Rua:</label>
+                    <input type="text" class="form-control" id="rua" name="rua" required />
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <label for="numero_rua">N°</label>
+                        <input type="text" class="form-control" id="numero_rua" name="numero_rua" required />
+                    </div>
+                    <div class="col-3">
+                        <label for="complemento">Complemento:</label>
+                        <input type="text" class="form-control" id="complemento" name="complemento" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" class="form-control" id="cidade" name="cidade" required />
+                    </div>
+
+                    <div class="col-3">
+                        <label for="estado">UF:</label>
+                        <input type="text" class="form-control" id="estado" name="estado" required />
+                    </div>
+
+                    <div class="col" style="margin-top: 22px;">
+                        <button type="submit" class="btn btn-dark">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div>
+            ©Daniel 2023
+        </div>
+
+    </footer>
+</body>
+
+</html>

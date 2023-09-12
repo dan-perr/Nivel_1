@@ -1,0 +1,43 @@
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 93vh;
+    overflow-y: scroll;
+}
+
+.receita {
+    background-color: rgb(254, 255, 175);
+    height: 90vh;
+    width: 32vw;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.linha_reta {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-color: gray;
+    border-style: solid;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.principal_site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
